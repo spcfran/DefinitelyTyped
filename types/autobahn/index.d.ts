@@ -193,7 +193,7 @@ declare namespace autobahn {
         readonly isConnected: boolean;
         readonly isOpen: boolean;
         readonly isRetrying: boolean;
-        readonly transport: ITransportInfo;
+        readonly transport: ITransport;
         readonly session?: Session;
         readonly defer?: DeferFactory;
 
